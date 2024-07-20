@@ -34,12 +34,12 @@ gitlab-contribution-sync <gitlab-username> <local-target-directory> <remote-gith
 
 where:
 
-- `<gitlab-username>` is a placeholder for your GitLab username
+- `<gitlab-username>` is a placeholder for your GitLab username.
 - `<local-target-directory>` is a placeholder for a path on your local
   filesystem, where the tool will create and update a local repository. This
   directory will be created upon first usage.
-- `<remote-github-repo>` The remote (push) address of the GitHub repo you want
-  to sync your contributions to.
+- `<remote-github-repo>` is a placeholder for the remote (push) address of the
+  GitHub repo you want to sync your contributions to.
 
 e.g.
 
