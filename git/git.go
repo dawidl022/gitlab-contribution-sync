@@ -9,10 +9,9 @@ import (
 	"github.com/dawidl022/gitlab-contribution-sync/contributions"
 )
 
-// TODO each time the count is incremented, a commit is made with the
-// message "Contribution <count> on <Date>", and is timestamped with midday
-// local time on that Date (naive attempt at mitigating timezone issues).
-
+// a commit is made with the message "Contribution #<count> on <date>", and is
+// timestamped with midday local time on that date (naive attempt at mitigating
+// timezone issues).
 func CommitContributions(targetDir string, date contributions.Date, count int) error {
 	err := gitAdd(targetDir)
 	if err != nil {

@@ -8,11 +8,7 @@ import (
 	"github.com/dawidl022/gitlab-contribution-sync/git"
 )
 
-// TODO check if target directory exists, has a contributions.json file and
-// has git initialised, if not, mkdir -p and git init, and create empty {}
-// contributions.json
-
-// initialise the local repository if it doesn't exist
+// initialise the local repository if it doesn't exist, with a contributions.json file
 func initLocalRepo(config config.Config) error {
 	err := os.MkdirAll(config.TargetDir, 0755)
 	if err != nil {
