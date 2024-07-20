@@ -23,7 +23,7 @@ last 12 months can be synchronised.
 ### Installation
 
 ```
-go install github.com/dawidl022/gitlab-contribution-sync
+go install github.com/dawidl022/gitlab-contribution-sync@latest
 ```
 
 ### CLI
@@ -43,7 +43,7 @@ where:
 
 e.g.
 
-```
+```bash
 gitlab-contribution-sync "dawidl022" "$HOME/Development/my-gitlab-contributions" "git@github.com:dawidl022/my-gitlab-contributions.git"
 ```
 
