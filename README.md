@@ -47,8 +47,8 @@ e.g.
 gitlab-contribution-sync "dawidl022" "$HOME/Development/my-gitlab-contributions" "git@github.com:dawidl022/my-gitlab-contributions.git"
 ```
 
-To re-sync your changes, simply re-run the command with the same arguments. You
-can also set up a cron job to periodically run the tool.
+To re-sync your contributions, simply re-run the command with the same
+arguments. You can also set up a cron job to periodically run the tool.
 
 ## How it works
 
